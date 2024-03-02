@@ -1,0 +1,171 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing:border-box;
+}
+.intro,.info, .quote,.action{
+    flex:1;
+}
+.bounded{
+    padding:0 150px;
+    /* border: 2px solid red; */
+}
+.header,.footer,.intro{
+    background-color:#1F2937 ;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.header .bounded{
+    display: flex;
+    /* padding: 16px; */
+    justify-content: space-between;
+     
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 20px;
+}
+.header a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+.header{
+    padding: 10px 0;;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.intro .bounded{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+.subtext{
+    font-size: 18px;
+    /* font-weight:bolder; */
+    color: #E5E7EB;
+    margin-bottom: 8px;   
+}
+.intro-desc{
+    width: 500px;
+    /* flex-shrink: 0; */
+}
+img{
+    border-radius: 50%;
+}
+button{
+    background-color: #3882F6;
+    border:0px;
+    border-radius: 8px;
+    color:#F9FAF8;
+    padding: 6px 24px;
+    font-size: 16px;
+}
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;;
+    color: #E5E7EB;
+}
+
+.info .bounded{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 150px;
+    align-items: center;
+}
+#info-heading{
+    color:#1F2937;
+    font-size:36px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+}
+.illustration{
+    height:100px;
+    width: 150px; 
+    background-color: white;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card{
+    height:300px;
+    width: 150px;
+}
+.quote{
+    background-color:#E5E7EB;
+}
+.quote .bounded{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+.quote-desc, .saidby{
+    width: 50vw;
+}
+.quote-desc{
+    font-style: italic;
+    font-weight: lighter;
+    color:rgb(118, 108, 108);
+    font-size: 36px;
+}
+.saidby{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+.banner{
+    margin: 50px 0;
+    padding: 20px 20px;
+    width: 50vw;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+.banner button{
+    flex-shrink: 0;
+    border: 1px solid #E5E7EB;
+}
+.action{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    font-weight: bold;
+    font-size: 20px;
+}
+.belowMain{
+    font-weight: 100;
+    font-size: 15px;
+}
